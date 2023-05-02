@@ -4,10 +4,10 @@
 ## Architecture
 ![original](https://user-images.githubusercontent.com/100104826/235511360-45816fa0-15ef-4d89-ad66-1778a5cbe546.jpg)
 
-## Steps Included
-<b>Create an AWS EC2 instance:</b> Create an Amazon Elastic Compute Cloud (EC2) instance using the AWS Management Console or AWS CLI. This will be the server where you will run Jenkins, Ansible, and deploy your application.
+## Steps included to perform the project
+<b><u>Create an AWS EC2 instance:</u></b> Create an Amazon Elastic Compute Cloud (EC2) instance using the AWS Management Console or AWS CLI. This will be the server where you will run Jenkins, Ansible, and deploy your application.
 
-Install and configure Docker on the EC2 instance: Install Docker on the EC2 instance and configure it to start automatically at boot time.
+<b><u>Install and configure Docker on the EC2 instance:</u></b> Install Docker on the EC2 instance and configure it to start automatically at boot time.
 
 Create an IAM role and policy: Create an AWS Identity and Access Management (IAM) role and policy that grants Jenkins permission to access the necessary AWS services, such as EC2, S3, and CloudFormation.
 
