@@ -33,4 +33,4 @@
 
 <b>Maintain and update the project :</b> As the project evolves, continue to maintain and update the code and deployment process. Use version control to track changes and collaborate with other team members.
 
-#### By following these steps, you can create an end-to-end DevOps project that leverages GitHub, Docker, Dockerhub, Git, Jenkins, Ansible, and AWS EC2 instances to automate the build and deployment process for your application.
+### By following these steps, you can create an end-to-end DevOps project that leverages GitHub, Docker, Dockerhub, Git, Jenkins, Ansible, and AWS EC2 instances to automate the build and deployment process for your application.
