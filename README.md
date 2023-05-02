@@ -19,18 +19,18 @@
 
 <b>Push the Docker image to Dockerhub :</b> Once you have tested the image locally, push it to Dockerhub. This will make it accessible to other team members or to servers that need to run the application.
 
-Create an AWS CloudFormation template :</b> Create an AWS CloudFormation template that defines the infrastructure required to run the application, such as EC2 instances, security groups, and load balancers.
+<b>Create an AWS CloudFormation template :</b> Create an AWS CloudFormation template that defines the infrastructure required to run the application, such as EC2 instances, security groups, and load balancers.
 
-Set up Ansible on the EC2 instance: Install Ansible on the EC2 instance and configure it to run locally.
+<b>Set up Ansible on the EC2 instance :</b> Install Ansible on the EC2 instance and configure it to run locally.
 
-Create an Ansible playbook: Create an Ansible playbook that defines the tasks required to deploy the application to the EC2 instances created by CloudFormation.
+<b>Create an Ansible playbook :</b> Create an Ansible playbook that defines the tasks required to deploy the application to the EC2 instances created by CloudFormation.
 
-Configure the Jenkins project: Configure the Jenkins project to use the Ansible playbook to deploy the application to the EC2 instances created by CloudFormation.
+<b>Configure the Jenkins project :</b> Configure the Jenkins project to use the Ansible playbook to deploy the application to the EC2 instances created by CloudFormation.
 
-Test the deployment: Test the deployment process by triggering a build in Jenkins. The build should pull the code from GitHub, build the Docker image, push it to Dockerhub, create the infrastructure required to run the application using CloudFormation, and deploy the application to the EC2 instances using Ansible.
+<b>Test the deployment :</b> Test the deployment process by triggering a build in Jenkins. The build should pull the code from GitHub, build the Docker image, push it to Dockerhub, create the infrastructure required to run the application using CloudFormation, and deploy the application to the EC2 instances using Ansible.
 
 <b>Monitor the application :</b> Use monitoring tools such as Amazon CloudWatch to monitor the application and ensure that it is running correctly.
 
 <b>Maintain and update the project :</b> As the project evolves, continue to maintain and update the code and deployment process. Use version control to track changes and collaborate with other team members.
 
-By following these steps, you can create an end-to-end DevOps project that leverages GitHub, Docker, Dockerhub, Git, Jenkins, Ansible, and AWS EC2 instances to automate the build and deployment process for your application.
+### By following these steps, you can create an end-to-end DevOps project that leverages GitHub, Docker, Dockerhub, Git, Jenkins, Ansible, and AWS EC2 instances to automate the build and deployment process for your application.
