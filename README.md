@@ -19,7 +19,7 @@
 
 <b>Push the Docker image to Dockerhub :</b> Once you have tested the image locally, push it to Dockerhub. This will make it accessible to other team members or to servers that need to run the application.
 
-Create an AWS CloudFormation template: Create an AWS CloudFormation template that defines the infrastructure required to run the application, such as EC2 instances, security groups, and load balancers.
+Create an AWS CloudFormation template :</b> Create an AWS CloudFormation template that defines the infrastructure required to run the application, such as EC2 instances, security groups, and load balancers.
 
 Set up Ansible on the EC2 instance: Install Ansible on the EC2 instance and configure it to run locally.
 
